@@ -1,0 +1,87 @@
+// Account
+
+.account_title {
+  padding: 0 30px;
+  margin-bottom: 20px;
+  .title {
+    color: #363b40;
+    font-family: @lato;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.18px;
+  }
+}
+
+.account_form {
+  padding: 0 30px;
+  form {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 900px;
+    max-width: 100%;
+    label {
+      margin-bottom: 15px;
+      width: 46%;
+      max-width: 100%;
+      margin-right: 67px;
+      &:nth-child(even) {
+        margin-right: 0;
+      }
+      p {
+        color: #363b40;
+        font-family: @raleway;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19.69px;
+        padding-left: 15px;
+        margin-bottom: 3px;
+      }
+      input {
+        width: 100%;
+        max-width: 100%;
+        height: 30px;
+        border: 1px solid @green_light;
+        border-radius: 5px;
+        outline: 0;
+        padding: 0 0 0 15px;
+        color: #363b40;
+        font-family: @raleway;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19.69px;
+      }
+    }
+  }
+}
+
+.account_buttons {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  .btn_white {
+    color: @green_main;
+    border: 1px solid @green_main;
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    margin: 0 0 0 25px;
+    height: 51px;
+    color: #ffffff;
+    font-family: @raleway;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 11.83px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: @transition;
+    &:hover {
+      transition: @transition;
+      opacity: 0.6;
+    }
+  }
+}

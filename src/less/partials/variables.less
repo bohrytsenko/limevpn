@@ -1,0 +1,84 @@
+// Colors
+
+@green: #60b158;
+@green_main: #29b190;
+@green_light: #D6EDE0;
+@grey: #b3b3b3;
+@orange: #ff9900;
+
+// Fonts
+
+@raleway: 'Raleway', sans-serif;
+@lato: 'Lato', sans-serif;
+
+// Transition
+
+@transition: 0.5s;
+
+// Custom
+
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.title {
+  margin: 0 auto;
+}
+
+.container{
+  width: 1140px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.hidden {
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+  visibility: hidden;
+  transition: @transition;
+}
+.hidden_span {
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+  visibility: hidden;
+  transition: @transition;
+  right: -200%;
+  width: 0;
+}
+
+.btn_blue {
+  background-color: @green_main;
+}
+
+.btn_rose {
+  background-color: #F9CACE;
+}
+
+.btn_white {
+  color: @green_main ;
+  border-color: @green_main;
+}
+
+.color_green {
+  color: @green;
+}
+
+.color_orange {
+  color: @orange;
+}
+

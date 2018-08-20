@@ -1,0 +1,163 @@
+// Limevpn_01
+
+.login {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.login_wrap {
+  box-shadow: 0 0 27px 0 rgba(0,0,0,0.13);
+  height: 430px;
+  width: 635px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__logo {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    img {
+      width: 144px;
+    }
+  }
+  &__form {
+    width: 65%;
+  }
+}
+
+.login_form {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../img/bg_login.jpg");
+  background-repeat: no-repeat;
+  &__icon {
+    text-align: center;
+    margin-bottom: 30px;
+    img {
+      width: 38px;
+    }
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    input[type="email"],
+    input[type="password"]{
+      color: @grey;
+      font-family: @raleway;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1;
+      width: 236px;
+      max-width: 100%;
+      height: 31px;
+      padding-left: 13px;
+      outline: 0;
+      border: 1px solid @green_main;
+      margin-bottom: 16px;
+      &::placeholder {
+        color: @green_light;
+        font-family: @raleway;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1;
+      }
+    }
+    input[type="submit"] {
+      cursor: pointer;
+      background-color: @green;
+      width: 74px;
+      height: 20px;
+      color: #ffffff;
+      font-family: @raleway;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1;
+      border: 1px solid #fff;
+      padding: 0;
+      margin: 16px 0 32px 0;
+      transition: 0.5s;
+      &:hover {
+        background-color: #fff;
+        border-color: @green;
+        transition: 0.5s;
+        color: @green;
+      }
+    }
+    label {
+      position: relative;
+      display: flex;
+      align-items: center;
+      color: #ffffff;
+      font-family: @raleway;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 1;
+      input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        margin-right: 8px;
+      }
+      .checkmark {
+        margin-right: 8px;
+        top: 0;
+        left: 0;
+        height: 13px;
+        width: 13px;
+        background-color: #fff;
+      }
+      a {
+        color: #ffffff;
+        font-family: @raleway;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1px;
+        text-decoration: none;
+      }
+    }
+  }
+  &__labels {
+    display: flex;
+    label {
+      margin: 0 25px;
+    }
+  }
+}
+
+// Custom checkbox
+
+.container:hover input ~ .checkmark {
+  background-color: #fff;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: @green_main;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 2px;
+  height: 6px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

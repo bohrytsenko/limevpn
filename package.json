@@ -1,0 +1,25 @@
+{
+  "name": "falur",
+  "version": "2.0.0",
+  "description": "",
+  "author": "webgsite.ru",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "*",
+    "gulp-bower": "*",
+    "gulp-connect": "*",
+    "gulp-cssmin": "*",
+    "gulp-filter": "*",
+    "gulp-imagemin": "*",
+    "gulp-include": "*",
+    "gulp-less": "*",
+    "gulp-livereload": "*",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "*",
+    "gulp.spritesmith": "*",
+    "imagemin-pngquant": "*",
+    "opn": "*",
+    "rimraf": "*"
+  },
+  "dependencies": {}
+}

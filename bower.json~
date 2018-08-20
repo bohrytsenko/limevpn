@@ -1,0 +1,22 @@
+{
+  "name": "falur-packeage-bower",
+  "version": "1.0.0",
+  "authors": [
+    "falur <ienakaev@ya.ru>"
+  ],
+  "dependencies" : {
+	"jquery" : "~2.*",
+	"fancybox" : "latest",
+	"bxslider-4" : "latest",
+	"uikit" : "latest"
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+	"src/vendor",
+    "test",
+    "tests"
+  ]
+}

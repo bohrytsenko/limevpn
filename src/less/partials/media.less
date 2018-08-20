@@ -1,0 +1,48 @@
+@desktop:   ~"only screen and (min-width: 993px) and (max-width: 1199px)";
+@tablet:    ~"only screen and (min-width: 769px) and (max-width: 992px)";
+@mobile:    ~"only screen and (min-width: 300px) and (max-width: 768px)";
+@full:    ~"only screen and (min-width: 300px) and (max-width: 1199px)";
+@desctop_mobile:    ~"only screen and (min-width: 300px) and (max-width: 1199px)";
+
+@media @full {
+  .container {
+    width: inherit;
+    padding: 0 15px;
+  }
+}
+
+body {
+  @media @desctop_mobile {
+    .login_wrap {
+      padding: 50px 0;
+      height: 100%;
+      flex-direction: column;
+      &__logo {
+        text-align: center;
+        width: 100%;
+        padding-bottom: 50px;
+      }
+      &__form {
+        width: 100%;
+        padding: 50px 0;
+      }
+    }
+    .login_form__labels label {
+      margin: 0 20px;
+    }
+  }
+}
+
+body {
+  @media @mobile {
+    .login_form form input[type=email], .login_form form input[type=password] {
+      width: inherit;
+    }
+    .login_form__labels {
+      flex-direction: column;
+      label {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
