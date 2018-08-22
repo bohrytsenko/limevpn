@@ -110,6 +110,10 @@
                         <img src="img/icon_account.svg" alt="Account">
                         <span class="hidden_span">Account</span>
                     </a>
+                    <ul>
+                        <li><a href="#/">Change password</a></li>
+                        <li><a href="#/">Email history</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="/">
@@ -169,7 +173,7 @@
             <div class="home_wrap__left home_left">
                 <div class="home_left__top home_top">
                     <!--begin home item-->
-                    <div class="home_top__item home_item_top color_blue">
+                    <a href="#/" data-related="services" class="home_top__item home_item_top color_green">
                         <div class="home_item_top__icon">
                             <img src="img/icon_services_blue.svg" alt="Services">
                             <img src="img/icon_services_grey.svg" alt="Services">
@@ -180,10 +184,10 @@
                         <div class="home_item_top__name">
                             Services
                         </div>
-                    </div>
+                    </a>
                     <!--end home item-->
                     <!--begin home item-->
-                    <div class="home_top__item home_item_top color_grey">
+                    <a href="#/" data-related="tickets" class="home_top__item home_item_top color_grey">
                         <div class="home_item_top__icon">
                             <img src="img/icon_tickets_blue.svg" alt="Tickets">
                             <img src="img/icon_tickets_grey.svg" alt="Tickets">
@@ -194,10 +198,10 @@
                         <div class="home_item_top__name">
                             Tickets
                         </div>
-                    </div>
+                    </a>
                     <!--end home item-->
                     <!--begin home item-->
-                    <div class="home_top__item home_item_top color_grey">
+                    <a href="#/" data-related="invoices" class="home_top__item home_item_top color_grey">
                         <div class="home_item_top__icon">
                             <img src="img/icon_invoices_blue.svg" alt="Invoices">
                             <img src="img/icon_invoices_grey.svg" alt="Invoices">
@@ -208,72 +212,208 @@
                         <div class="home_item_top__name">
                             Invoices
                         </div>
-                    </div>
+                    </a>
                     <!--end home item-->
                 </div>
-                <div class="home_left__started home_started">
-                    <div class="home_started__left">
-                        <div class="home_started__title">
-                            <h3 class="title">Your Active Products/Services</h3>
+                <div id="services" class="home_left__block" style="display: block;">
+                    <div class="home_left__started home_started">
+                        <div class="home_started__left">
+                            <div class="home_started__title">
+                                <h3 class="title">Your Active Products/Services</h3>
+                            </div>
+                            <div class="home_started__text">
+                                <p>It appears you do not have any products/services with us yet.</p>
+                                <a href="#/">Place an order to get started</a>
+                            </div>
                         </div>
-                        <div class="home_started__text">
-                            <p>It appears you do not have any products/services with us yet.</p>
-                            <a href="#/">Place an order to get started</a>
+                        <div class="home_started__right">
+                            <a href="#/">View all</a>
                         </div>
                     </div>
-                    <div class="home_started__right">
-                        <a href="#/">View all</a>
+                    <div class="home_left__list home_list">
+                        <div class="home_list__title">
+                            <a href="#/">
+                                List of all premium VPN servers
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                        <ul class="accordion accordion_hidden">
+                            <li>
+                                <a>Africa</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>Asia & Middle East</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>Australia</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>Europe</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>North America</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>South America</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="home_left__latest home_latest">
+                        <div class="home_latest__title">
+                            <h3 class="title">Latest Announcements</h3>
+                        </div>
+                        <div class="home_latest__wrap">
+                            <!--begin latest item-->
+                            <div class="home_latest__item">
+                                <p>us12.limevpn.com under maintenance</p>
+                            </div>
+                            <!--end latest item-->
+                            <!--begin latest item-->
+                            <div class="home_latest__item">
+                                <p>Server status</p>
+                            </div>
+                            <!--end latest item-->
+                        </div>
                     </div>
                 </div>
-                <div class="home_left__list home_list">
-                    <div class="home_list__title">
-                        <a href="#/">
-                            List of all premium VPN servers
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
+                <div id="tickets" class="home_left__block">
+                    <div class="home_left__started home_started">
+                        <div class="home_started__left">
+                            <div class="home_started__title">
+                                <h3 class="title">Your Active Products/Tickets</h3>
+                            </div>
+                            <div class="home_started__text">
+                                <p>It appears you do not have any products/services with us yet.</p>
+                                <a href="#/">Place an order to get started</a>
+                            </div>
+                        </div>
+                        <div class="home_started__right">
+                            <a href="#/">View all</a>
+                        </div>
                     </div>
-                    <ul class="accordion accordion_hidden">
-                        <li>
-                            <a>Africa</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
-                        </li>
-                        <li>
-                            <a>Asia & Middle East</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
-                        </li>
-                        <li>
-                            <a>Australia</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
-                        </li>
-                        <li>
-                            <a>Europe</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
-                        </li>
-                        <li>
-                            <a>North America</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
-                        </li>
-                        <li>
-                            <a>South America</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
-                        </li>
-                    </ul>
+                    <div class="home_left__list home_list">
+                        <div class="home_list__title">
+                            <a href="#/">
+                                List of all premium VPN servers
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                        <ul class="accordion accordion_hidden">
+                            <li>
+                                <a>Africa</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>Asia & Middle East</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>Australia</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>Europe</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>North America</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>South America</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="home_left__latest home_latest">
+                        <div class="home_latest__title">
+                            <h3 class="title">Latest Announcements</h3>
+                        </div>
+                        <div class="home_latest__wrap">
+                            <!--begin latest item-->
+                            <div class="home_latest__item">
+                                <p>us12.limevpn.com under maintenance</p>
+                            </div>
+                            <!--end latest item-->
+                            <!--begin latest item-->
+                            <div class="home_latest__item">
+                                <p>Server status</p>
+                            </div>
+                            <!--end latest item-->
+                        </div>
+                    </div>
                 </div>
-                <div class="home_left__latest home_latest">
-                    <div class="home_latest__title">
-                        <h3 class="title">Latest Announcements</h3>
+                <div id="invoices" class="home_left__block">
+                    <div class="home_left__started home_started">
+                        <div class="home_started__left">
+                            <div class="home_started__title">
+                                <h3 class="title">Your Active Products/Invoices</h3>
+                            </div>
+                            <div class="home_started__text">
+                                <p>It appears you do not have any products/services with us yet.</p>
+                                <a href="#/">Place an order to get started</a>
+                            </div>
+                        </div>
+                        <div class="home_started__right">
+                            <a href="#/">View all</a>
+                        </div>
                     </div>
-                    <div class="home_latest__wrap">
-                        <!--begin latest item-->
-                        <div class="home_latest__item">
-                            <p>us12.limevpn.com under maintenance</p>
+                    <div class="home_left__list home_list">
+                        <div class="home_list__title">
+                            <a href="#/">
+                                List of all premium VPN servers
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
                         </div>
-                        <!--end latest item-->
-                        <!--begin latest item-->
-                        <div class="home_latest__item">
-                            <p>Server status</p>
+                        <ul class="accordion accordion_hidden">
+                            <li>
+                                <a>Africa</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>Asia & Middle East</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>Australia</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>Europe</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>North America</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                            <li>
+                                <a>South America</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, ipsum, fuga, in, obcaecati magni ullam nobis voluptas fugiat tenetur voluptatum quas tempora maxime rerum neque deserunt suscipit provident cumque et mollitia ex aspernatur porro minus sapiente voluptatibus eos at perferendis repellat odit aliquid harum molestias ratione pariatur adipisci. Aliquid, iure.</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="home_left__latest home_latest">
+                        <div class="home_latest__title">
+                            <h3 class="title">Latest Announcements</h3>
                         </div>
-                        <!--end latest item-->
+                        <div class="home_latest__wrap">
+                            <!--begin latest item-->
+                            <div class="home_latest__item">
+                                <p>us12.limevpn.com under maintenance</p>
+                            </div>
+                            <!--end latest item-->
+                            <!--begin latest item-->
+                            <div class="home_latest__item">
+                                <p>Server status</p>
+                            </div>
+                            <!--end latest item-->
+                        </div>
                     </div>
                 </div>
             </div>

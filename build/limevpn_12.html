@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+	<!--Styles-->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="vendor/components-font-awesome/css/fontawesome-all.css">
+</head>
+<body>
+
+<div class="content_wrap">
+    <!--begin navigation-->
+    <nav class="navigation ">
+        <div class="navigation__top navigation_top">
+            <a class="navigation_top__logo" href="/">
+                <img src="img/logo_nav.svg" alt="Logo">
+                <img src="img/logo_nav_full.svg" alt="Logo">
+            </a>
+            <ul>
+                <li>
+                    <a href="/">
+                        <img src="img/icon_manage.svg" alt="Manage">
+                        <span class="hidden_span">Manage product</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <img src="img/icon_account.svg" alt="Account">
+                        <span class="hidden_span">Account</span>
+                    </a>
+                    <ul>
+                        <li><a href="#/">Change password</a></li>
+                        <li><a href="#/">Email history</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/">
+                        <img src="img/icon_billing.svg" alt="Billing">
+                        <span class="hidden_span">Billing</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <img src="img/icon_support.svg" alt="Support">
+                        <span class="hidden_span">Support</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <img src="img/icon_affiliates.svg" alt="Affiliates">
+                        <span class="hidden_span">Affiliates</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="navigation__bottom hidden_nav_bottom">
+            <ul>
+                <li>
+                    <a href="#/">
+                        <img src="img/icon_add.png" alt="Add">
+                    </a>
+                </li>
+                <li>
+                    <a href="#/">
+                        <img src="img/icon_download.png" alt="Download">
+                    </a>
+                </li>
+                <li>
+                    <a href="#/">
+                        <img src="img/icon_supports.png" alt="Support">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--end navigation-->
+    <!--begin content-->
+    <section class="content">
+        <div class="content__top content_top billing_top">
+            <div class="content_top__title">
+                <h1 class="title">
+                    Billing
+                </h1>
+            </div>
+            <div class="content_top__welcome">
+                <a href="#/">Welcome to limevpn.com!</a>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+        <div class="billing_tabs">
+            <a data-related="payment" href="#/" class="billing_tabs__item active">
+                Payment
+            </a>
+            <a data-related="history" href="#/" class="billing_tabs__item">
+                History
+            </a>
+        </div>
+        <div id="payment" class="billing_bl" style="display: block;">
+            <div class="billing_info">
+                <div class="billing_info__methods billing_methods">
+                    <a href="#/" data-related="paypal" class="billing_methods__item">
+                        <img src="img/icon_paypall_green.svg" alt="paypal">
+                        <img src="img/icon_paypall_grey.svg" alt="paypal">
+                    </a>
+                    <a href="#/" data-related="paymentwall" class="billing_methods__item">
+                        <img src="img/icon_paywall_green.svg" alt="paymentwall">
+                        <img src="img/icon_paywall_grey.svg" alt="paymentwall">
+                    </a>
+                </div>
+                <div class="billing_info__total billing_total">
+                    <p>Your total is</p>
+                    <p><b>$250.00 USD</b></p>
+                </div>
+            </div>
+            <div class="billing_coupon">
+                <div class="billing_coupon__field">
+                    <input type="text" placeholder="Apply Coupon Code">
+                </div>
+                <div class="billing_coupon__prev">
+                    <a href="#/">Previous</a>
+                </div>
+                <div class="billing_coupon__btn">
+                    <a href="#/">Pay $250</a>
+                </div>
+            </div>
+            <div id="paypal" class="billing_meth billing_paypal">
+                <div class="billing_meth__title">
+                    <h3 class="title">Make a Paypal Payment</h3>
+                </div>
+                <div class="billing_paypal__list payplal_list">
+                    <label class="label_choose">
+                        10
+                        <input type="checkbox">
+                    </label>
+                    <label>
+                        20
+                        <input type="checkbox">
+                    </label>
+                    <label>
+                        30
+                        <input type="checkbox">
+                    </label>
+                    <label>
+                        50
+                        <input type="checkbox">
+                    </label>
+                    <label>
+                        other
+                        <input type="checkbox">
+                    </label>
+                </div>
+                <div class="billing_paypal__agree">
+                    <label for="paypal_agree">
+                        <input id="paypal_agree" type="checkbox">
+                        <span class="checkmark"></span>
+                        I agree to the <a href="#/">terms of services</a>
+                    </label>
+                    <input type="submit" value="Pay with PayPal">
+                </div>
+            </div>
+            <div id="paymentwall" class="billing_meth billing_paymentwall">
+                <div class="billing_meth__title">
+                    <h3 class="title">Pay via Paymentwall</h3>
+                </div>
+                <div class="billing_paymentwall__list paymentwall_list">
+                    <label data-related="banktransfer_btn" for="banktransfer" class="label_choose">
+                        <img src="img/icon_banktransfer_green.svg" alt="Bank Transfer">
+                        <img src="img/icon_banktransfer_grey.svg" alt="Bank Transfer">
+                        <input id="banktransfer" type="checkbox">
+                    </label>
+                    <label data-related="card_btn" for="card">
+                        <img src="img/icon_card_green.svg" alt="Card">
+                        <img src="img/icon_card_grey.svg" alt="Card">
+                        <input id="card" type="checkbox">
+                    </label>
+                    <label data-related="crypto_btn" for="coins">
+                        <img src="img/icon_bitcoin_green.svg" alt="coins">
+                        <img src="img/icon_bitcoin_grey.svg" alt="coins">
+                        <input id="coins" type="checkbox">
+                    </label>
+                </div>
+                <div class="billing_paymentwall__agree">
+                    <label for="paymentwall_agree">
+                        <input id="paymentwall_agree" type="checkbox">
+                        <span class="checkmark"></span>
+                        I agree to the <a href="#/">terms of services</a>
+                    </label>
+                    <input id="banktransfer_btn" type="submit" value="Pay via Bank Transfer" style="display: block;">
+                    <input id="card_btn" type="submit" value="Pay via Card">
+                    <input id="crypto_btn" type="submit" value="Pay via Crypto">
+                </div>
+            </div>
+        </div>
+        <div id="history" class="billing_bl history">
+            <div class="history__balance history_balance">
+                <div class="history_balance__price">
+                    <p>Outstanding Balence: <span>$0.00 USD</span></p>
+                </div>
+                <div class="history_balance__invoice">
+                    <a href="#/">Pay invoice</a>
+                </div>
+            </div>
+            <div class="history__table history_table">
+                <div class="history_table__titles history_titles">
+                    <h3 class="title">Invoice#</h3>
+                    <h3 class="title">Invoice date</h3>
+                    <h3 class="title">Status</h3>
+                    <h3 class="title">Price</h3>
+                    <h3 class="title">Due Date</h3>
+                </div>
+                <div class="history_table__list history_list">
+                    <p>test</p>
+                    <p>test</p>
+                    <p>test</p>
+                    <p>test</p>
+                    <p>test</p>
+                </div>
+                <div class="history_table__list history_list">
+                    <p>test 2</p>
+                    <p>test 2</p>
+                    <p>test 2</p>
+                    <p>test 2</p>
+                    <p>test 2</p>
+                </div>
+            </div>
+            <div class="history__pagination history_pagination">
+                <a href="#/">
+                    <i class="fas fa-chevron-left"></i>
+                    <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#/">
+                    <i class="fas fa-chevron-left"></i>
+                </a>
+                <a href="#/">1</a>
+                <a href="#/">2</a>
+                <a href="#/">3</a>
+                <a href="#/">4</a>
+                <a href="#/">5</a>
+                <a href="#/">
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <a href="#/">
+                    <i class="fas fa-chevron-right"></i>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--end content-->
+</div>
+
+<script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

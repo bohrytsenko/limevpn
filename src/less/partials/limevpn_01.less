@@ -132,11 +132,7 @@
 
 // Custom checkbox
 
-.container:hover input ~ .checkmark {
-  background-color: #fff;
-}
-
-.container input:checked ~ .checkmark {
+label input:checked ~ .checkmark {
   background-color: @green_main;
 }
 
@@ -146,11 +142,11 @@
   display: none;
 }
 
-.container input:checked ~ .checkmark:after {
+label input:checked ~ .checkmark:after {
   display: block;
 }
 
-.container .checkmark:after {
+label .checkmark:after {
   left: 5px;
   top: 2px;
   width: 2px;

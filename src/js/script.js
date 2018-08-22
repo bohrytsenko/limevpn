@@ -17,6 +17,13 @@ $( document ).ready(function() {
         $(this).toggleClass("label_choose");
     });
 
+    // Billing box
+
+    $(".payplal_list label").on('change', function () {
+        $(".payplal_list label").removeClass("label_choose");
+        $(this).toggleClass("label_choose");
+    });
+
     // Accordion
 
     (function($) {
@@ -84,6 +91,79 @@ $( document ).ready(function() {
         e.preventDefault();
     });
 
+    // Billing tabs
+
+    $('.billing_tabs__item').click(function(e){
+        $('.billing_tabs__item').removeClass('active');
+        $(this).addClass('active');
+        $('.billing_bl').hide();
+        $('#'+$(this).attr('data-related')).show();
+        //This is also valid
+        //$('#'+$(this).data('related')).show();
+        e.preventDefault();
+    });
+
+    // Billing payment menthods
+
+    $('.billing_methods__item').click(function(e){
+        $('.billing_coupon').fadeOut(300);
+        $('.billing_methods__item').removeClass('active');
+        $(this).addClass('active');
+        $('.billing_meth').hide();
+        $('#'+$(this).attr('data-related')).show();
+        //This is also valid
+        //$('#'+$(this).data('related')).show();
+        e.preventDefault();
+    });
+
+    // Support tabs
+
+    $('.support_tabs__item').click(function(e){
+        $('.support_tabs__item').removeClass('active');
+        $(this).addClass('active');
+        $('.support_bl').hide();
+        $('#'+$(this).attr('data-related')).show();
+        //This is also valid
+        //$('#'+$(this).data('related')).show();
+        e.preventDefault();
+    });
+
+    // Support tabs
+
+    $('.affiliates_tabs__item').click(function(e){
+        $('.affiliates_tabs__item').removeClass('active');
+        $(this).addClass('active');
+        $('.affiliates_bl').hide();
+        $('#'+$(this).attr('data-related')).show();
+        //This is also valid
+        //$('#'+$(this).data('related')).show();
+        e.preventDefault();
+    });
+
+    // Banners tabs
+
+    $('.banners_tabs a').click(function(e){
+        $('.banners_tabs a').removeClass('active');
+        $(this).addClass('active');
+        $('.banners_item').hide();
+        $('#'+$(this).attr('data-related')).show();
+        //This is also valid
+        //$('#'+$(this).data('related')).show();
+        e.preventDefault();
+    });
+
+    // Paymentwall btn
+
+    $('.paymentwall_list label').click(function(e){
+        $('.paymentwall_list label').removeClass('label_choose');
+        $(this).addClass('label_choose');
+        $('.billing_paymentwall__agree input').hide();
+        $('#'+$(this).attr('data-related')).show();
+        //This is also valid
+        //$('#'+$(this).data('related')).show();
+        e.preventDefault();
+    });
+
     // Products stat data id
 
     $('select').change(function(){
@@ -98,10 +178,14 @@ $( document ).ready(function() {
         $(this).toggleClass('accordion_active');
     });
 
+    $('.manage_buttons .btn_rose').click(function(){
+        $('.product_help').addClass('product_help__show');
+    });
+
     // Product help close
 
     $('.product_help__close').click(function(){
-        $('.product_help').fadeOut(300);
+        $('.product_help').removeClass('product_help__show');
     });
 
 });

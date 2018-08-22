@@ -1,7 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d83ff4a6-36d6-4b4b-899a-51b801d1a37e" name="Default" comment="" />
+    <list default="true" id="d83ff4a6-36d6-4b4b-899a-51b801d1a37e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/build/img/icon_banktransfer_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_banktransfer_green — копия.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_banktransfer_grey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_bitcoin_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_bitcoin_grey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_bitcoin_grey — копия.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_card_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_card_grey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_card_grey — копия.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_click.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_conversions.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_faq_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_linux.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_macos.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_openticket_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_paypall_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_paypall_green — копия.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_paypall_grey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_paywall_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_paywall_grey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_paywall_grey — копия.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_signups.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_techsupport_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/img/icon_windowsguide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/limevpn_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/limevpn_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/limevpn_12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/limevpn_16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/limevpn_18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_banktransfer_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_banktransfer_grey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_bitcoin_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_bitcoin_grey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_card_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_card_grey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_click.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_conversions.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_faq_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_linux.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_macos.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_openticket_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_paypall_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_paypall_grey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_paywall_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_paywall_grey.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_signups.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_techsupport_green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/img/work/icon_windowsguide.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/less/partials/limevpn_10.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/less/partials/limevpn_11.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/less/partials/limevpn_12.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/less/partials/limevpn_16.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/less/partials/limevpn_18.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/less/partials/limevpn_24.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/limevpn_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/limevpn_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/limevpn_12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/limevpn_16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/limevpn_18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/limevpn_24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/partials/limevpn_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/partials/limevpn_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/partials/limevpn_12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/partials/limevpn_16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/partials/limevpn_18.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/partials/limevpn_24.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/bg_nav.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/bg_nav.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/icon_logo_product.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/icon_logo_product.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/limevpn_03.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/limevpn_03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/limevpn_05.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/limevpn_05.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/limevpn_08.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/limevpn_08.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/limevpn_09.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/limevpn_09.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/work/bg_nav.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/work/bg_nav.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/work/icon_logo_product.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/work/icon_logo_product.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/partials/limevpn_01.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/partials/limevpn_01.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/partials/limevpn_03.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/partials/limevpn_03.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/partials/limevpn_05.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/partials/limevpn_05.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/partials/limevpn_08.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/partials/limevpn_08.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/partials/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/partials/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/partials/limevpn_03.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partials/limevpn_03.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/partials/limevpn_05.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partials/limevpn_05.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/partials/limevpn_08.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partials/limevpn_08.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/partials/limevpn_09.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partials/limevpn_09.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,55 +106,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="variables.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/less/partials/variables.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="12" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="12" />
-            </state>
-          </provider>
+      <file leaf-file-name="limevpn_24.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_24.less">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="limevpn_03.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_03.less">
+      <file leaf-file-name="limevpn_24.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_24.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="431" column="18" selection-start-line="431" selection-start-column="18" selection-end-line="431" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="62" column="54" lean-forward="true" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="limevpn_03.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/limevpn_03.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="228" column="58" selection-start-line="228" selection-start-column="58" selection-end-line="228" selection-end-column="58" />
+            <state relative-caret-position="255">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
               <folding>
-                <element signature="n#a#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#a#1;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#a#2;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#2;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#2;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#nav#0;n#div#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -74,43 +129,43 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
-        <option value="Less File" />
         <option value="HTML File" />
+        <option value="Less File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>less</find>
-      <find>sass</find>
-      <find>icons</find>
-      <find>media</find>
-      <find>active</find>
-      <find>left</find>
-      <find>content_wrap</find>
-      <find>ledt</find>
-      <find>bottom</find>
-      <find>naviga</find>
-      <find>logo</find>
-      <find>accor</find>
-      <find>navigat</find>
-      <find>box</find>
-      <find>info</find>
-      <find>content</find>
-      <find>accord</find>
-      <find>.content, .content_wrap</find>
-      <find>.content_top__welcome i</find>
-      <find>add_stats_list</find>
-      <find>.content_top</find>
-      <find>b</find>
-      <find>btn</find>
       <find>.congratulation_help</find>
       <find>blue</find>
-      <find>light</find>
       <find>home_list</find>
       <find>home_start</find>
       <find>home_left</find>
+      <find>navig</find>
+      <find>content_t</find>
+      <find>hover</find>
+      <find>light</find>
+      <find>billing_ta</find>
+      <find>img</find>
+      <find>grey</find>
       <find>home_item_top</find>
+      <find>green</find>
+      <find>.add_stats_item</find>
+      <find>add_tab</find>
+      <find>help</find>
+      <find>cance</find>
+      <find>product_help</find>
+      <find>#29b190</find>
+      <find>29B190</find>
+      <find>apply</find>
+      <find>label</find>
+      <find>home</find>
+      <find>meth</find>
+      <find>paymentwall_list</find>
+      <find>table</find>
+      <find>history</find>
+      <find>box</find>
+      <find>border-b</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,22 +186,45 @@
         <option value="$PROJECT_DIR$/src/pages/partials/footer.html" />
         <option value="$PROJECT_DIR$/src/pages/partials/header.html" />
         <option value="$PROJECT_DIR$/build/limevpn_01.html" />
-        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_03.html" />
-        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_05.html" />
         <option value="$PROJECT_DIR$/src/pages/limevpn_08.html" />
-        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_08.html" />
-        <option value="$PROJECT_DIR$/src/less/style.less" />
         <option value="$PROJECT_DIR$/src/pages/limevpn_09.html" />
-        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_09.html" />
         <option value="$PROJECT_DIR$/src/pages/partials/limevpn_01.html" />
-        <option value="$PROJECT_DIR$/src/less/partials/limevpn_01.less" />
-        <option value="$PROJECT_DIR$/src/less/partials/limevpn_05.less" />
         <option value="$PROJECT_DIR$/src/less/partials/limevpn_09.less" />
-        <option value="$PROJECT_DIR$/src/less/partials/variables.less" />
-        <option value="$PROJECT_DIR$/src/less/partials/limevpn_08.less" />
-        <option value="$PROJECT_DIR$/src/js/script.js" />
         <option value="$PROJECT_DIR$/build/limevpn_03.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/build/limevpn_05.html" />
+        <option value="$PROJECT_DIR$/build/limevpn_08.html" />
+        <option value="$PROJECT_DIR$/build/limevpn_09.html" />
+        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_05.html" />
+        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_08.html" />
+        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_09.html" />
+        <option value="$PROJECT_DIR$/src/pages/limevpn_10.html" />
         <option value="$PROJECT_DIR$/src/less/partials/limevpn_03.less" />
+        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_10.html" />
+        <option value="$PROJECT_DIR$/src/less/partials/limevpn_11.html" />
+        <option value="$PROJECT_DIR$/src/pages/limevpn_11.html" />
+        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_11.html" />
+        <option value="$PROJECT_DIR$/src/pages/limevpn_12.html" />
+        <option value="$PROJECT_DIR$/src/pages/limevpn_16.html" />
+        <option value="$PROJECT_DIR$/src/pages/limevpn_18.html" />
+        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_03.html" />
+        <option value="$PROJECT_DIR$/src/less/partials/limevpn_05.less" />
+        <option value="$PROJECT_DIR$/src/less/partials/limevpn_08.less" />
+        <option value="$PROJECT_DIR$/src/less/partials/limevpn_11.less" />
+        <option value="$PROJECT_DIR$/src/less/partials/limevpn_10.less" />
+        <option value="$PROJECT_DIR$/src/less/partials/limevpn_01.less" />
+        <option value="$PROJECT_DIR$/src/js/script.js" />
+        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_12.html" />
+        <option value="$PROJECT_DIR$/src/less/partials/variables.less" />
+        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_16.html" />
+        <option value="$PROJECT_DIR$/src/less/partials/limevpn_16.less" />
+        <option value="$PROJECT_DIR$/src/less/partials/limevpn_12.less" />
+        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_18.html" />
+        <option value="$PROJECT_DIR$/src/less/partials/limevpn_18.less" />
+        <option value="$PROJECT_DIR$/src/less/partials/limevpn_24.less" />
+        <option value="$PROJECT_DIR$/src/less/style.less" />
+        <option value="$PROJECT_DIR$/src/pages/limevpn_24.html" />
+        <option value="$PROJECT_DIR$/src/pages/partials/limevpn_24.html" />
       </list>
     </option>
   </component>
@@ -198,12 +276,6 @@
               <item name="limevpn" type="b2602c69:ProjectViewProjectNode" />
               <item name="limevpn" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="limevpn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="limevpn" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="limevpn" type="b2602c69:ProjectViewProjectNode" />
@@ -278,33 +350,37 @@
       <workItem from="1534449839383" duration="3426000" />
       <workItem from="1534455075141" duration="10147000" />
       <workItem from="1534504235449" duration="7600000" />
-      <workItem from="1534762915089" duration="3145000" />
+      <workItem from="1534762915089" duration="10353000" />
+      <workItem from="1534774276850" duration="7741000" />
+      <workItem from="1534785673415" duration="14335000" />
+      <workItem from="1534891654936" duration="8400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59919000" />
+    <option name="totallyTimeSpent" value="97603000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1430585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1430585" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32833788" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32833788" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -315,195 +391,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_09.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="135" column="22" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="22" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#section#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_08.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1230">
-          <caret line="82" column="34" selection-start-line="82" selection-start-column="34" selection-end-line="82" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_08.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="178" column="73" selection-start-line="178" selection-start-column="73" selection-end-line="178" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_05.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="92" selection-start-line="92" selection-end-line="358" selection-end-column="6" />
-          <folding>
-            <element signature="n#section#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#nav#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="27" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_05.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_03.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9105">
-          <caret line="607" column="25" lean-forward="true" selection-start-line="607" selection-start-column="25" selection-end-line="607" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="289" column="47" lean-forward="true" selection-start-line="289" selection-start-column="47" selection-end-line="289" selection-end-column="47" />
-          <folding>
-            <element signature="n#section#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#nav#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_03.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="170" column="9" selection-start-line="170" selection-start-column="9" selection-end-line="170" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-          <folding>
-            <element signature="n#section#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#nav#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/style.sass" />
-    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_01.sass" />
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="54" selection-start-column="54" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/limevpn_01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/limevpn_03.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -528,130 +415,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/limevpn_05.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_05.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="309" column="40" lean-forward="true" selection-end-line="340" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/limevpn_08.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/limevpn_05.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/limevpn_08.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/limevpn_09.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_08.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="186" column="43" selection-end-line="393" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/limevpn_09.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_09.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="135" column="22" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="22" />
-          <folding>
-            <element signature="n#nav#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#section#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/limevpn_01.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_03.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="161" column="18" selection-start-line="161" selection-start-column="18" selection-end-line="161" selection-end-column="18" />
-          <folding>
-            <element signature="n#section#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" />
-            <element signature="n#nav#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_09.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_08.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="225" column="13" selection-start-line="225" selection-start-column="11" selection-end-line="225" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_05.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_01.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="149" column="13" selection-start-line="149" selection-start-column="13" selection-end-line="149" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -662,49 +429,337 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/partials/variables.less">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/script.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/limevpn_05.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="62" column="54" lean-forward="true" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
+        <state relative-caret-position="60">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="64" column="10" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_09.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="135" column="24" lean-forward="true" selection-end-line="149" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/limevpn_09.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_11.html" />
+    <entry file="file://$PROJECT_DIR$/src/pages/limevpn_10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" lean-forward="true" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/limevpn_11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" lean-forward="true" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/limevpn_12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" lean-forward="true" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/limevpn_16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="true" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_03.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="217" column="82" selection-start-line="217" selection-start-column="82" selection-end-line="217" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_05.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="180" column="15" lean-forward="true" selection-start-line="180" selection-start-column="15" selection-end-line="180" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="190" column="63" selection-start-line="190" selection-start-column="49" selection-end-line="190" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_10.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="73" column="18" lean-forward="true" selection-end-line="107" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_11.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="74" column="26" lean-forward="true" selection-end-line="149" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/limevpn_05.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/limevpn_09.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/limevpn_03.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="228" column="58" selection-start-line="228" selection-start-column="58" selection-end-line="228" selection-end-column="58" />
-          <folding>
-            <element signature="n#a#0;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#1;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#a#2;n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#2;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#2;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#2;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#3;n#div#0;n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="438">
+          <caret line="175" column="46" lean-forward="true" selection-start-line="175" selection-start-column="46" selection-end-line="175" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_03.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="431" column="18" selection-start-line="431" selection-start-column="18" selection-end-line="431" selection-end-column="18" />
+        <state relative-caret-position="2357">
+          <caret line="706" column="6" selection-start-line="706" selection-start-column="6" selection-end-line="709" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/limevpn_01.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_01.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="158" column="1" lean-forward="true" selection-start-line="148" selection-start-column="16" selection-end-line="158" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/limevpn_10.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/limevpn_08.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="234" column="20" selection-start-line="234" selection-start-column="20" selection-end-line="234" selection-end-column="20" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#2;n#div#2;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#3;n#div#2;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#div#3;n#div#2;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#3;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#section#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_10.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_09.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_08.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="50" column="10" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="207" column="49" selection-start-line="207" selection-start-column="49" selection-end-line="207" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#3;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#section#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/limevpn_18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_11.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/limevpn_16.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/limevpn_12.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="250" column="18" lean-forward="true" selection-start-line="230" selection-start-column="12" selection-end-line="250" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#3;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/limevpn_11.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_16.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="227" column="15" selection-start-line="227" selection-start-column="15" selection-end-line="227" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_12.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="387" column="18" selection-start-line="387" selection-start-column="18" selection-end-line="387" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_18.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1047">
+          <caret line="310" column="24" selection-start-line="310" selection-start-column="24" selection-end-line="310" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/limevpn_18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" lean-forward="true" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/limevpn_24.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_18.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="263" column="36" selection-end-line="287" selection-end-column="6" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#2;n#section#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#2;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#2;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#2;n#section#0;n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#3;n#section#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/partials/limevpn_24.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/partials/limevpn_24.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

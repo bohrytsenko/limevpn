@@ -131,7 +131,7 @@
     width: 0;
     height: 0;
     border-top: 7px solid transparent;
-    border-left: 7px solid @green;
+    border-left: 7px solid #55bca1;
     border-bottom: 7px solid transparent;
   }
   &__full {
@@ -158,6 +158,25 @@
         position: relative;
         left: 100px;
         transition: @transition;
+        ul {
+          margin-top: 30px;
+          opacity: 0;
+          visibility: hidden;
+          position: absolute;
+          padding-left: 45px;
+          transition: 0.2s;
+          li {
+            margin-bottom: 30px;
+          }
+        }
+        &:hover {
+          ul {
+            opacity: 1;
+            visibility: visible;
+            position: relative;
+            transition: 0.2s;
+          }
+        }
         a {
           display: flex;
           align-items: center;
@@ -308,6 +327,13 @@
       font-size: 21px;
       font-weight: 700;
       line-height: 1;
+      span {
+        color: #363b40;
+        font-family: @raleway;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 1;
+      }
     }
   }
   &__welcome {

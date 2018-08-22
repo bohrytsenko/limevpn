@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+	<!--Styles-->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="vendor/components-font-awesome/css/fontawesome-all.css">
+</head>
+<body>
+
+<div class="content_wrap">
+    <!--begin navigation-->
+    <nav class="navigation ">
+        <div class="navigation__top navigation_top">
+            <a class="navigation_top__logo" href="/">
+                <img src="img/logo_nav.svg" alt="Logo">
+                <img src="img/logo_nav_full.svg" alt="Logo">
+            </a>
+            <ul>
+                <li>
+                    <a href="/">
+                        <img src="img/icon_manage.svg" alt="Manage">
+                        <span class="hidden_span">Manage product</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <img src="img/icon_account.svg" alt="Account">
+                        <span class="hidden_span">Account</span>
+                    </a>
+                    <ul>
+                        <li><a href="#/">Change password</a></li>
+                        <li><a href="#/">Email history</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/">
+                        <img src="img/icon_billing.svg" alt="Billing">
+                        <span class="hidden_span">Billing</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <img src="img/icon_support.svg" alt="Support">
+                        <span class="hidden_span">Support</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/">
+                        <img src="img/icon_affiliates.svg" alt="Affiliates">
+                        <span class="hidden_span">Affiliates</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="navigation__bottom hidden_nav_bottom">
+            <ul>
+                <li>
+                    <a href="#/">
+                        <img src="img/icon_add.png" alt="Add">
+                    </a>
+                </li>
+                <li>
+                    <a href="#/">
+                        <img src="img/icon_download.png" alt="Download">
+                    </a>
+                </li>
+                <li>
+                    <a href="#/">
+                        <img src="img/icon_supports.png" alt="Support">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--end navigation-->
+    <!--begin content-->
+    <section class="content">
+        <div class="content__top content_top">
+            <div class="content_top__title">
+                <h1 class="title">
+                   Account <span>/ Change Password</span>
+                </h1>
+            </div>
+            <div class="content_top__welcome">
+                <a href="#/">Welcome to limevpn.com!</a>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+        <div class="account_form account_password">
+            <form>
+                <label for="existing">
+                    <p>Existing Password</p>
+                    <input id="existing" type="password">
+                </label>
+                <label for="new">
+                    <p>New Password</p>
+                    <input id="new" type="password">
+                    <div class="account_password__tips">
+                        <p><b>Tips for a good password</b></p>
+                        <p>Use botth upper and lowercase characters</p>
+                        <p>Include a least one symbol (# $ ! % & etc)</p>
+                        <p>Don't use dictionary words</p>
+                    </div>
+                </label>
+                <label for="confirm">
+                    <p>Confirm New Password</p>
+                    <input id="confirm" type="password">
+                </label>
+                <div class="account_buttons">
+                    <a class="btn_white" href="#/">Cancel</a>
+                    <a class="btn_blue" href="#/">Save Changes</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--end content-->
+</div>
+
+<script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

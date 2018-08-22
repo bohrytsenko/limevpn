@@ -1,0 +1,412 @@
+// Billing
+
+.billing_top {
+  margin-bottom: 0;
+}
+
+.billing_tabs {
+  padding: 0 30px;
+  margin-bottom: 30px;
+  .active {
+    color: @green_main;
+    &:before {
+      width: 100%;
+    }
+  }
+  &__item {
+    font-family: @raleway;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px 0;
+    color: #363b40;
+    position: relative;
+    text-decoration: none;
+    margin-right: 20px;
+    &:before {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 2px;
+      top: 1px;
+      background-color: @green_main;
+    }
+  }
+}
+
+.billing_bl {
+  display: none;
+}
+
+.billing_info {
+  padding: 0 30px;
+  margin-bottom: 50px;
+  width: 900px;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &__methods {
+    display: flex;
+    width: 50%;
+    height: 210px;
+    max-width: 100%;
+    box-shadow: 0 0 27px 0 rgba(0,0,0,0.13);
+    .active {
+      border: 2px solid @green_main;
+      img {
+        &:first-child {
+          display: block;
+        }
+        &:nth-child(2) {
+          display: none;
+        }
+      }
+    }
+    a {
+      padding: 50px;
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        position: absolute;
+        height: 70px;
+        &:first-child {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.billing_total {
+  width: 25%;
+  box-shadow: 0 0 27px 0 rgba(0,0,0,0.13);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  p {
+    font-family: @raleway;
+    color: #363b40;
+    font-size: 18px;
+    line-height: 35.1px;
+    b {
+      font-size: 24px;
+      color: #39b54a;
+      font-weight: normal;
+    }
+  }
+}
+
+.billing_coupon {
+  padding: 0 30px;
+  width: 900px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__field {
+    width: 55%;
+    max-width: 100%;
+    input {
+      height: 45px;
+      width: 100%;
+      background-color: #F2F2F2;
+      border: 0;
+      outline: 0;
+      padding: 0 25px;
+      color: #cccccc;
+      font-size: 12px;
+      font-family: @raleway;
+      &::placeholder {
+        color: #cccccc;
+        font-size: 12px;
+        font-family: @raleway;
+      }
+    }
+  }
+  &__prev {
+    width: 15%;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      height: 45px;
+      border: 2px solid #F2F2F2;
+      color: #f2f2f2;
+      font-size: 12px;
+      font-family: @raleway;
+    }
+  }
+  &__btn {
+    width: 25%;
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 45px;
+      background-color: #39b54a;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: @raleway;
+      text-decoration: none;
+      transition: @transition;
+      &:hover {
+        transition: @transition;
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+.billing_meth {
+  display: none;
+  padding: 0 30px;
+  &__title {
+    margin-bottom: 30px;
+    .title {
+      color: #363b40;
+      font-family: @lato;
+      font-size: 16px;
+      line-height: 20.23px;
+    }
+  }
+}
+
+.payplal_list {
+  margin-bottom: 30px;
+  display: flex;
+  .label_choose {
+    background-color: @green_main;
+    color: #fff;
+  }
+  label {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    color: #363b40;
+    font-family: @raleway;
+    font-size: 16px;
+    line-height: 20.23px;
+    border: 2px solid @green_main;
+    text-decoration: none;
+    cursor: pointer;
+    input {
+      position: absolute;
+      opacity: 0;
+    }
+  }
+}
+
+.billing_paypal__agree, .billing_paymentwall__agree {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  input[type="submit"] {
+    width: 170px;
+    max-width: 100%;
+    height: 46px;
+    border: 0;
+    border-radius: 5px;
+    outline: 0;
+    color: #fff;
+    background-color: #39b54a;
+    font-family: @raleway;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  label {
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #666666;
+    font-size: 12px;
+    font-family: @raleway;
+    margin-bottom: 30px;
+    a {
+      margin-left: 5px;
+      color: #3ba7de;
+      text-decoration: none;
+    }
+    input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      margin-right: 20px;
+    }
+    .checkmark {
+      display: inline-block;
+      margin-right: 20px;
+      top: 0;
+      left: 0;
+      height: 22px;
+      width: 22px;
+      background-color: #fff;
+      border: 1px solid #F2F2F2;
+      border-radius: 2px;
+      &:after {
+        left: 0.7%;
+        top: 28%;
+        width: 2px;
+        height: 6px;
+        border: solid #fff;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+      }
+    }
+  }
+}
+
+.paymentwall_list {
+  box-shadow: 0 0 27px 0 rgba(0,0,0,0.13);
+  display: inline-flex;
+  margin-bottom: 30px;
+  .label_choose {
+   border-color: @green_main;
+    img {
+      &:first-child {
+        display: block;
+      }
+      &:nth-child(2) {
+        display: none;
+      }
+    }
+  }
+  label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    max-width: 100%;
+    height: 60px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    input {
+      position: absolute;
+      opacity: 0;
+    }
+    img {
+      height: 33px;
+      &:first-child {
+        display: none;
+      }
+    }
+  }
+}
+
+.billing_paymentwall__agree {
+  input[type="submit"] {
+    display: none;
+  }
+}
+
+// History
+
+.history {
+  padding: 0 30px;
+}
+
+.history_balance {
+  padding-left: 20px;
+  height: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 27px 0 rgba(0,0,0,0.13);
+  border-radius: 5px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__price {
+    font-family: @raleway;
+    font-size: 16px;
+    font-weight: 600;
+    color: #39b54a;
+    span {
+      margin-left: 40px;
+    }
+  }
+  &__invoice {
+    height: 100%;
+    a {
+      width: 130px;
+      max-width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #EBFCF4;
+      font-family: @raleway;
+      font-size: 16px;
+      font-weight: 600;
+      color: @green_main;
+      text-decoration: none;
+      transition: @transition;
+      &:hover {
+        transition: @transition;
+        background-color: @green_main;
+        color: #fff;
+      }
+    }
+  }
+}
+
+.history_titles {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #b3b3b3;
+  border-bottom: 1px solid #b3b3b3;
+  .title {
+    text-align: center;
+    font-family: @raleway;
+    width: 20%;
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+.history_list {
+  &:last-child {
+    margin-bottom: 50px;
+  }
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(233, 238, 239);
+  p {
+    text-align: center;
+    font-family: @raleway;
+    width: 20%;
+    margin: 0 auto;
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+.history_pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    font-family: @raleway;
+    font-size: 16px;
+    font-weight: 600;
+    color: @green_main;
+    margin: 0 12px;
+    text-decoration: none;
+  }
+}
