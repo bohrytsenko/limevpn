@@ -1,18 +1,14 @@
 @desktop:   ~"only screen and (min-width: 993px) and (max-width: 1199px)";
 @tablet:    ~"only screen and (min-width: 769px) and (max-width: 992px)";
 @mobile:    ~"only screen and (min-width: 300px) and (max-width: 768px)";
-@full:    ~"only screen and (min-width: 300px) and (max-width: 1199px)";
 @desctop_mobile:    ~"only screen and (min-width: 300px) and (max-width: 1199px)";
-
-@media @full {
-  .container {
-    width: inherit;
-    padding: 0 15px;
-  }
-}
 
 body {
   @media @desctop_mobile {
+    .container {
+      width: inherit;
+      padding: 0 15px;
+    }
     .login_wrap {
       padding: 50px 0;
       height: 100%;
@@ -30,8 +26,52 @@ body {
     .login_form__labels label {
       margin: 0 20px;
     }
+    .home_top {
+      &__item {
+        width: 46%!important;
+      }
+    }
+    .navigation {
+      display: none;
+    }
+    .home_wrap {
+      padding: 0 15px;
+    }
+    .affiliates_bl_wrap {
+      flex-wrap: wrap;
+      &__left {
+        width: 100%;
+      }
+      &__right {
+        width: 100%;
+      }
+    }
+    .affiliates_referrals {
+      margin-bottom: 30px;
+    }
+    .affiliates_bl {
+      margin-bottom: 50px;
+    }
+    .refer {
+      margin-bottom: 50px;
+    }
+    .refer_socials a {
+      margin-bottom: 15px;
+    }
+    .refer_link__text a {
+      font-size: 12px;
+    }
   }
 }
+
+body {
+  @media @tablet {
+    .account_form form label {
+      width: 44%;
+    }
+  }
+}
+
 
 body {
   @media @mobile {
@@ -43,6 +83,217 @@ body {
       label {
         margin-bottom: 15px;
       }
+    }
+    .home_wrap {
+      flex-direction: column;
+      &__left {
+        width: 100%;
+      }
+      &__right {
+        width: 100%;
+      }
+    }
+    .home_right {
+      width: 100%;
+    }
+    .product_item {
+      width: 100%;
+      margin-right: 0;
+    }
+    .manage_buttons a {
+      margin: 0 10px;
+      font-size: 12px;
+    }
+    .product_manage {
+      padding: 0 15px;
+    }
+    .manage_list {
+      padding: 10px;
+      justify-content: space-between;
+    }
+    .product_list {
+      padding: 0 15px;
+    }
+    .product_add {
+      padding: 0 15px;
+      &__left {
+        width: 100%;
+      }
+      &__right {
+        width: 100%;
+      }
+    }
+    .product_help {
+      align-items: center;
+      justify-content: center;
+    }
+    .product_help__info {
+      margin: 0;
+    }
+    .account_form form label {
+      width: 100%;
+      margin-right: 0;
+    }
+    .account_form, .account_title {
+      padding: 0 15px;
+    }
+    .account_form {
+      margin-bottom: 50px;
+    }
+    .account_history {
+      padding: 0 15px;
+    }
+    .account_search {
+      flex-direction: column;
+      min-height: 40px;
+      height: auto;
+      padding: 10px 15px;
+      &__text {
+        margin-bottom: 20px;
+      }
+    }
+    .account_messages {
+      padding: 15px 15px 70px 15px;
+    }
+    .message_block__info a {
+      font-size: 10px;
+    }
+    .billing_coupon {
+      flex-wrap: wrap;
+      padding: 0 15px;
+      &__field {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      &__prev {
+        width: 40%;
+      }
+      &__btn {
+        width: 40%;
+      }
+    }
+    .billing_info__methods {
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .billing_total {
+      width: 100%;
+    }
+    .billing_bl {
+      margin-bottom: 50px;
+    }
+    .billing_meth, .history {
+      padding: 0 15px;
+    }
+    .billing_info {
+      padding: 0 15px;
+    }
+    .payplal_list {
+      flex-wrap: wrap;
+      label {
+        margin-bottom: 15px;
+      }
+    }
+    .history_balance {
+      height: 100%;
+      min-height: 40px;
+      align-items: inherit;
+      &__invoice {
+        height: auto;
+      }
+      &__price {
+        span {
+          margin: 15px 0 0 0;
+          display: block;
+        }
+      }
+    }
+    .history_pagination a {
+      margin: 0 5px;
+    }
+    .support_bl {
+      padding: 0 15px;
+    }
+    .base_item {
+      width: 46%;
+      margin-bottom: 30px;
+    }
+    .base_info {
+      flex-wrap: wrap;
+      &__item {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+    .logo_item {
+      margin-bottom: 30px;
+    }
+    .affiliates_bl {
+      padding: 0 15px;
+    }
+    .account_list_item__info {
+      font-size: 12px;
+    }
+    .banners {
+      flex-wrap: wrap;
+      &__tabs {
+        width: 100%;
+      }
+      &__info {
+        width: 100%;
+      }
+    }
+    .refer {
+      padding: 0 15px;
+      flex-wrap: wrap;
+      &__left {
+        width: 100%;
+      }
+      &__right {
+        width: 100%;
+      }
+    }
+    .refer_free {
+      flex-wrap: wrap;
+      &__icon {
+        width: 100%;
+        text-align: center;
+      }
+      &__text {
+        width: 100%;
+      }
+    }
+    .refer_form {
+      margin-bottom: 30px;
+    }
+    .refer_link {
+      flex-wrap: wrap;
+      height: auto;
+      padding: 10px 15px;
+      &__text {
+        padding: 0;
+        margin-bottom: 15px;
+      }
+      &__btn {
+        height: 40px;
+        width: 100%;
+      }
+    }
+    .refer_connect {
+      flex-wrap: wrap;
+      p {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      &__socials {
+        width: 100%;
+      }
+    }
+    .downloads {
+      padding: 0 15px;
+    }
+    .downloads_select__list {
+      flex-wrap: wrap;
     }
   }
 }

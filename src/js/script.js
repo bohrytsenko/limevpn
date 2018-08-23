@@ -19,6 +19,13 @@ $( document ).ready(function() {
 
     // Billing box
 
+    $(".downloads_select__list label").on('change', function () {
+        $(".downloads_select__list label").removeClass("label_choose");
+        $(this).toggleClass("label_choose");
+    });
+
+    // Download box
+
     $(".payplal_list label").on('change', function () {
         $(".payplal_list label").removeClass("label_choose");
         $(this).toggleClass("label_choose");

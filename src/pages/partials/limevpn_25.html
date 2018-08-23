@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Site</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<!--Fonts-->
-	<link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,600,700,800,900" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
-	<!--Styles-->
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="vendor/components-font-awesome/css/fontawesome-all.css">
-</head>
-<body>
-
 <div class="content_wrap">
     <!--begin navigation-->
     <nav class="navigation ">
@@ -84,7 +69,7 @@
         <div class="content__top content_top">
             <div class="content_top__title">
                 <h1 class="title">
-                   Account <span>/ Change Password</span>
+                   Downloads
                 </h1>
             </div>
             <div class="content_top__welcome">
@@ -92,37 +77,72 @@
                 <i class="fas fa-chevron-right"></i>
             </div>
         </div>
-        <div class="account_form account_password">
-            <form>
-                <label for="existing">
-                    <p>Existing Password</p>
-                    <input id="existing" type="password">
-                </label>
-                <label for="new">
-                    <p>New Password</p>
-                    <input id="new" type="password">
-                    <div class="account_password__tips">
-                        <p><b>Tips for a good password</b></p>
-                        <p>Use botth upper and lowercase characters</p>
-                        <p>Include a least one symbol (# $ ! % & etc)</p>
-                        <p>Don't use dictionary words</p>
-                    </div>
-                </label>
-                <label for="confirm">
-                    <p>Confirm New Password</p>
-                    <input id="confirm" type="password">
-                </label>
-                <div class="account_buttons">
-                    <a class="btn_white" href="#/">Cancel</a>
-                    <a class="btn_blue" href="#/">Save Changes</a>
+        <div class="downloads">
+            <div class="downloads__select downloads_select">
+                <h3 class="title">
+                    Select your operating system to download setup.
+                </h3>
+                <div class="downloads_select__list">
+                    <label for="windows">
+                        <img src="img/icon_windows.svg" alt="windows">
+                        <input id="windows" type="checkbox">
+                    </label>
+                    <label for="mac">
+                        <img src="img/icon_mac.svg" alt="mac">
+                        <input id="mac" type="checkbox">
+                    </label>
+                    <label for="ios">
+                        <img src="img/icon_ios.svg" alt="ios">
+                        <input id="ios" type="checkbox">
+                    </label>
+                    <label for="android">
+                        <img src="img/icon_android.svg" alt="android">
+                        <input id="android" type="checkbox">
+                    </label>
+                    <label for="chrome">
+                        <img src="img/icon_chrome.svg" alt="chrome">
+                        <input id="chrome" type="checkbox">
+                    </label>
+                    <label for="ping">
+                        <img src="img/icon_ping.svg" alt="ping">
+                        <input id="ping" type="checkbox">
+                    </label>
+                    <label for="wifi">
+                        <img src="img/icon_wifi.svg" alt="wifi">
+                        <input id="wifi" type="checkbox">
+                    </label>
                 </div>
-            </form>
+                <h3 class="title">
+                    Select your protocol
+                </h3>
+                <div class="downloads_select__list">
+                    <label for="socks5">
+                        Socks5
+                        <input id="socks5" type="checkbox">
+                    </label>
+                    <label for="PPTP">
+                        PPTP
+                        <input id="PPTP" type="checkbox">
+                    </label>
+                    <label for="Openvpn">
+                        Open VPN
+                        <input id="Openvpn" type="checkbox">
+                    </label>
+                    <label for="L2TPIpscec">
+                        L2TP Ipscec
+                        <input id="L2TPIpscec" type="checkbox">
+                    </label>
+                    <label for="SSTP">
+                        SSTP
+                        <input id="SSTP" type="checkbox">
+                    </label>
+                    <label for="Softether">
+                        Softether
+                        <input id="Softether" type="checkbox">
+                    </label>
+                </div>
+            </div>
         </div>
     </section>
     <!--end content-->
 </div>
-
-<script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
-</body>
-</html>
