@@ -16,18 +16,30 @@
   padding: 0 30px;
   form {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
     width: 900px;
     max-width: 100%;
+    select {
+      margin-bottom: 15px;
+      max-width: 100%;
+      width: 100%;
+      height: 30px;
+      border: 1px solid @green_light;
+      background-color: #fff;
+      border-radius: 5px;
+      outline: 0;
+      padding: 0 0 0 15px;
+      color: #363b40;
+      font-family: @raleway;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 19.69px;
+    }
     label {
       margin-bottom: 15px;
       width: 46%;
       max-width: 100%;
-      margin-right: 67px;
-      &:nth-child(even) {
-        margin-right: 0;
-      }
       p {
         color: #363b40;
         font-family: @raleway;
@@ -64,7 +76,8 @@
     color: @green_main;
     border: 1px solid @green_main;
   }
-  a {
+  input {
+    border: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,6 +92,8 @@
     text-decoration: none;
     border-radius: 10px;
     transition: @transition;
+    text-align: center;
+    cursor: pointer;
     &:hover {
       transition: @transition;
       opacity: 0.6;

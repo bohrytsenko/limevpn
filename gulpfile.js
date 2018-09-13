@@ -16,6 +16,10 @@ var gulp        = require('gulp'),
 	filter      = require('gulp-filter');
 
 var buildpath = 'build';
+
+gulp.task('bower', function() {
+    return bower();
+});
 	
 var path = {
     build: {
@@ -211,5 +215,5 @@ gulp.task('build:bitrix:watch', [
 	'watch:bitrix'
 ]);
 
-gulp.task('server', ['build', 'watch', 'webserver', 'openbrowser']);
+gulp.task('server', ['bower', 'build', 'watch', 'webserver', 'openbrowser']);
 gulp.task('default', ['build']);
